@@ -1,0 +1,37 @@
+{
+  "name": "rh-footer-demo",
+  "license": "MIT",
+  "author": "rh-footer-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "rimraf dist && rollup -c rollup.config.js && npm run analyze -- --exclude dist",
+    "start:build": "web-dev-server --root-dir dist --app-index index.html --open",
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "@rhds/elements": "^1.0.0-beta.3",
+    "@patternfly/pfe-cta": "^1.12.3",
+    "@patternfly/pfe-styles": "^1.12.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@open-wc/building-rollup": "^2.0.1",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@web/dev-server": "^0.1.28",
+    "@web/rollup-plugin-html": "^1.10.1",
+    "@web/rollup-plugin-import-meta-assets": "^1.0.7",
+    "babel-plugin-template-html-minifier": "^4.1.0",
+    "deepmerge": "^4.2.2",
+    "npm-run-all": "^4.1.5",
+    "patch-package": "^6.4.7",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.60.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-workbox": "^6.2.0"
+  },
+  "customElements": "custom-elements.json",
+  "private": "true"
+}
