@@ -1,4 +1,6 @@
-## <rh-footer> Demo
+## rh-footer Demo
+
+This app is an example of how to import and use the `<rh-footer>` via npm.
 
 [preview](https://rh-footer-demo.vercel.app/) | [docs](https://github.com/RedHat-UX/red-hat-design-system/blob/main/elements/rh-footer/README.md)
 
