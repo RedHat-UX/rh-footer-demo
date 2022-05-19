@@ -8,13 +8,21 @@ This app is an example of how to import and use the `<rh-footer>` via npm.
 
 ## Quick start
 
+Clone repo
+
+```bash
+git clone git@github.com:heyMP/rh-footer-demo.git
+cd rh-footer-demo
+```
+
 Install
- 
+
 ```bash
 npm install --ignore-scripts
 ```
 
 Start dev server
+
 ```
 npm run start
 ```
