@@ -1,8 +1,10 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
+## <rh-footer> Demo
 
-## Open-wc Starter App
+[preview](https://rh-footer-demo.vercel.app/) | [docs](https://github.com/RedHat-UX/red-hat-design-system/blob/main/elements/rh-footer/README.md)
+
+![](screenshot.png)
+
+## Development
 
 [![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
 
