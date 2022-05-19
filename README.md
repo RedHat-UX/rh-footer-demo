@@ -6,18 +6,22 @@ This app is an example of how to import and use the `<rh-footer>` via npm.
 
 ![](screenshot.png)
 
+## Quick start
+
+Install
+ 
+```bash
+npm install --ignore-scripts
+```
+
+Start dev server
+```
+npm run start
+```
+
 ## Development
 
 [![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
-
-## Quickstart
-
-To get started:
-
-```bash
-npm init @open-wc
-# requires node 10 & npm 6 or higher
-```
 
 ## Scripts
 
