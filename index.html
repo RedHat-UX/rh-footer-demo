@@ -10,11 +10,16 @@
   <!-- Required -->
   <link rel="stylesheet" href="./node_modules/@rhds/elements/elements/rh-footer/rh-footer-lightdom.css">
   <link rel="stylesheet" href="https://static.redhat.com/libs/redhat/redhat-font/4/webfonts/red-hat-font.min.css" />
+  <script type="module" src="./src/rh-footer-demo.js"></script>
   <!-- /Required -->
 
   <style>
     :root {
       --gh-icon-height: 80px;
+    }
+    body {
+      padding: 0;
+      margin: 0;
     }
     rh-footer {
       margin-top: calc(var(--gh-icon-height) + 1em);
@@ -25,99 +30,93 @@
 <body>
   <rh-footer>
     <a slot="logo" href="/en">
-      <img src="https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--on-dark.svg" alt="Red Hat logo"
-        loading="lazy" />
+      <img src="https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--on-dark.svg"
+           alt="Red Hat logo"
+           loading="lazy" />
     </a>
     <rh-footer-social-link slot="social-links-end" icon="web-icon-github">
-      <a href="#github">Github</a>
+      <a href="#github">GitHub</a>
     </rh-footer-social-link>
     <h3 slot="links">Products</h3>
     <ul slot="links">
-      <li><a href="#">Red Hat Ansible Automation Platform</a></li>
-      <li><a href="#">Red Hat Enterprise Linux</a></li>
-      <li><a href="#">Red Hat OpenShift</a></li>
-      <li><a href="#">Red Hat OpenShift Container Storage</a></li>
-      <li><a href="#">Red Hat OpenStack Platform</a></li>
-      <li><a href="#">See all products</a></li>
+      <li><a href="https://www.redhat.com/en/technologies/management/ansible">Red Hat Ansible Automation Platform</a></li>
+      <li><a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">Red Hat Enterprise Linux</a></li>
+      <li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift">Red Hat OpenShift</a></li>
+      <li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation">Red Hat OpenShift Data Foundation</a></li>
+      <li><a href="https://www.redhat.com/en/technologies/linux-platforms/openstack-platform">Red Hat OpenStack Platform</a></li>
+      <li><a href="https://www.redhat.com/en/technologies/all-products">See all products</a></li>
     </ul>
     <h3 slot="links">Tools</h3>
     <ul slot="links">
-      <li><a href="#">My account</a></li>
-      <li><a href="#">Customer support</a></li>
-      <li><a href="#">Red Hat OpenShift</a></li>
-      <li><a href="#">Contact training</a></li>
-      <li><a href="#">Red Hat OpenStack Platform</a></li>
-      <li><a href="#">See all products</a></li>
+      <li><a href="https://sso.redhat.com/">My account</a></li>
+      <li><a href="https://access.redhat.com/">Customer support</a></li>
+      <li><a href="https://connect.redhat.com/">Partner resources</a></li>
+      <li><a href="https://developers.redhat.com/">Developer resources</a></li>
+      <li><a href="https://www.redhat.com/en/services/training-and-certification">Training and certification</a></li>
+      <li><a href="https://learn.redhat.com/">Learning community</a></li>
+      <li><a href="https://catalog.redhat.com/">Red Hat Ecosystem Catalog</a></li>
+      <li><a href="https://www.redhat.com/en/resources">Resource library</a></li>
     </ul>
     <h3 slot="links">Try, buy, sell</h3>
     <ul slot="links">
-      <li><a href="#">Red Hat Store</a></li>
-      <li><a href="#">Red Hat Enterprise Linux</a></li>
-      <li><a href="#">Red Hat OpenShift</a></li>
-      <li><a href="#">Contact training</a></li>
-      <li><a href="#">Red Hat OpenStack Platform</a></li>
-      <li><a href="#">See all products</a></li>
+      <li><a href="https://www.redhat.com/en/products/trials">Product trial center</a></li>
+      <li><a href="https://www.redhat.com/en/store">Red Hat Store</a></li>
+      <li><a href="https://marketplace.redhat.com/">Red Hat Marketplace</a></li>
+      <li><a href="https://www.redhat.com/en/about/japan-buy">Buy online (Japan)</a></li>
+      <li><a href="http://redhat.force.com/finder/">Find a partner</a></li>
+      <li><a href="https://www.redhat.com/en/contact">Contact sales</a></li>
+      <li><a href="https://www.redhat.com/en/services/training-and-certification/contact-us">Contact training</a></li>
+      <li><a href="https://www.redhat.com/en/services/consulting-overview#contact-us">Contact consulting</a></li>
     </ul>
     <h3 id="communicate" slot="links">Communicate</h3>
     <ul slot="links">
-      <li><a href="#">Contact us</a></li>
-      <li><a href="#">Feedback</a></li>
-      <li><a href="#">Social</a></li>
-      <li><a href="#">Red Hat newsletter</a></li>
-      <li><a href="#">Email preferences</a></li>
+      <li><a href="https://www.redhat.com/en/contact">Contact us</a></li>
+      <li><a href="https://www.redhat.com/en/about/feedback">Feedback</a></li>
+      <li><a href="https://www.redhat.com/en/about/social">Social</a></li>
+      <li><a href="https://engage.redhat.com/Global-Preference-Center?newsletter=RH-Shares&intcmp=7016000000154xCAAQ">Red Hat newsletter</a></li>
     </ul>
     <rh-footer-block slot="main-secondary">
       <h3 slot="header">About Red Hat</h3>
-      <p>We’re the world’s leading provider of enterprise open source solutions―including Linux, cloud, container,
-        and
-        Kubernetes. We deliver hardened solutions that make it easier for enterprises to work across platforms and
-        environments, from the core datacenter to the network edge.
-      </p>
-      <p>Duis nulla esse ad id anim ipsum et magna amet laborum ex consectetur nulla. Est non ex ea ut ex laborum
-        id
-        aute eiusmod eu quis qui. <a href="#">Consequat consequat tempor elit nostrud non</a>.</p>
+      <p>We’re the world’s leading provider of enterprise open source solutions, using a community-powered approach to deliver high-performing Linux, cloud, container, and Kubernetes technologies. We help you standardize across environments, develop cloud-native applications, and integrate, automate, secure, and manage complex environments with award-winning support, training, and consulting services.</p>
     </rh-footer-block>
     <rh-footer-block slot="main-secondary">
       <h3 slot="header">Subscribe to our free newsletter, Red Hat Shares</h3>
       <pfe-cta><a href="#blocks">Sign up now</a></pfe-cta>
     </rh-footer-block>
-    <rh-footer-block slot="main-secondary">
-      <h3 slot="header">Select a language</h3>
-      <p>insert language switcher here...</p>
-    </rh-footer-block>
     <h3 slot="footer-links-primary" hidden>Red Hat legal and privacy links</h3>
     <ul slot="footer-links-primary">
-      <li><a href="#">About Red Hat</a></li>
-      <li><a href="#">Jobs</a></li>
-      <li><a href="#">Events</a></li>
-      <li><a href="#">Locations</a></li>
-      <li><a href="#">Contact Red Hat</a></li>
-      <li><a href="#">Red Hat Blog</a></li>
-      <li><a href="#">Cool Stuff Store</a></li>
-      <li><a href="#">Diversity, equity, and inclusion</a></li>
+      <li><a href="https://www.redhat.com/en/about/company">About Red Hat</a></li>
+      <li><a href="https://www.redhat.com/en/jobs-overview">Jobs</a></li>
+      <li><a href="https://www.redhat.com/en/events">Events</a></li>
+      <li><a href="https://www.redhat.com/en/about/office-locations">Locations</a></li>
+      <li><a href="https://www.redhat.com/en/blog">Red Hat Blog</a></li>
+      <li><a href="https://coolstuff.redhat.com/">Cool Stuff Store</a></li>
+      <li><a href="https://www.redhat.com/en/about/our-culture/diversity-equity-inclusion/statement">Diversity, equity, and inclusion</a></li>
     </ul>
     <rh-footer-copyright slot="footer-links-secondary"></rh-footer-copyright>
     <h3 slot="footer-links-secondary" hidden>Red Hat legal and privacy links</h3>
     <ul slot="footer-links-secondary">
-      <li><a href="#">Privacy statement</a></li>
-      <li><a href="#">Terms of use</a></li>
-      <li><a href="#">All policies and guidelines</a></li>
-      <li><a href="#">Digital accessibility</a></li>
+      <li><a href="https://www.redhat.com/en/about/privacy-policy">Privacy statement</a></li>
+      <li><a href="https://www.redhat.com/en/about/terms-use">Terms of use</a></li>
+      <li><a href="https://www.redhat.com/en/about/all-policies-guidelines">All policies and guidelines</a></li>
+      <li><a href="https://www.redhat.com/en/about/digital-accessibility">Digital accessibility</a></li>
       <li><a href="#">Cookie preferences</a></li>
     </ul>
     <div slot="footer-secondary-end">
       <a href="#">*We’ve updated our privacy statement effective December 30, 202X.</a>
     </div>
     <a href="https://www.redhat.com/en/summit" slot="footer-tertiary">
-      <img src="https://access.redhat.com/chrome_themes/nimbus/img/rh-summit-red-a.svg" alt="Red Hat Summit"
-        loading="lazy" width="73px" />
+      <img src="https://access.redhat.com/chrome_themes/nimbus/img/rh-summit-red-a.svg"
+           alt="Red Hat Summit"
+           loading="lazy"
+           width="73px" />
     </a>
   </rh-footer>
-
-  <script type="module" src="./src/rh-footer-demo.js"></script>
 
   <!-- Github Icon -->
   <a href="https://github.com/heyMP/rh-footer-demo" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 </body>
 
 </html>
+
+
