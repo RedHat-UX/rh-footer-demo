@@ -11,14 +11,14 @@ This app is an example of how to import and use the `<rh-footer>` via npm.
 Clone repo
 
 ```bash
-git clone git@github.com:heyMP/rh-footer-demo.git
+git clone git@github.com:RedHat-UX/rh-footer-demo.git
 cd rh-footer-demo
 ```
 
 Install
 
 ```bash
-npm install --ignore-scripts
+npm install
 ```
 
 Start dev server
