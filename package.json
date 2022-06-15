@@ -10,7 +10,7 @@
     "start": "web-dev-server"
   },
   "dependencies": {
-    "@rhds/elements": "^1.0.0-beta.5",
+    "@rhds/elements": "^1.0.0-beta.7",
     "@patternfly/pfe-cta": "next"
   },
   "devDependencies": {
