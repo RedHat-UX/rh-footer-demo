@@ -37,25 +37,40 @@
            loading="lazy" />
     </a>
     <rh-footer-social-link slot="social-links" icon="web-icon-linkedin">
-      <a href="http://www.linkedin.com/company/red-hat">LinkedIn</a>
+      <a href="http://www.linkedin.com/company/red-hat"
+      data-analytics-region="social-links"
+      data-analytics-category="Footer|social-links"
+      data-analytics-text="LinkedIn"
+      >LinkedIn</a>
     </rh-footer-social-link>
     <rh-footer-social-link slot="social-links" icon="web-icon-youtube">
-      <a href="http://www.youtube.com/user/RedHatVideos">Youtube</a>
+      <a href="http://www.youtube.com/user/RedHatVideos"
+      data-analytics-region="social-links"
+      data-analytics-category="Footer|social-links"
+      data-analytics-text="Youtube"
+      >Youtube</a>
     </rh-footer-social-link>
     <rh-footer-social-link slot="social-links" icon="web-icon-facebook">
-      <a href="https://www.facebook.com/redhatinc">Facebook</a>
+      <a href="https://www.facebook.com/redhatinc"
+      data-analytics-region="social-links"
+      data-analytics-category="Footer|social-links"
+      data-analytics-text="Facebook"
+      >Facebook</a>
     </rh-footer-social-link>
     <rh-footer-social-link slot="social-links" icon="web-icon-twitter">
-      <a href="https://twitter.com/RedHat">Twitter</a>
-    <!-- <section data-analytics-region="social-links"> -->
-    <!-- <a href="#github"
-        data-analytics-category="Footer|social-links"
-        data-analytics-text="GitHub"
-        >GitHub</a> -->
+      <a href="https://twitter.com/RedHat"
+      data-analytics-region="social-links"
+      data-analytics-category="Footer|social-links"
+      data-analytics-text="Twitter"
+      >Twitter</a>
     <rh-footer-social-link slot="social-links" icon="web-icon-github">
-      <a href="#github">GitHub</a>
+      <a href="#github"
+      data-analytics-region="social-links"
+      data-analytics-category="Footer|social-links"
+      data-analytics-text="GitHub"
+      >GitHub</a>
     </rh-footer-social-link>
-    <h3 slot="links">Products</h3>
+    <h3 slot="links" data-analytics-text="Products">Products</h3>
     <ul slot="links">
       <li><a href="https://www.redhat.com/en/technologies/management/ansible"
           data-analytics-category="Footer|Products"
@@ -82,7 +97,7 @@
         data-analytics-text="See all products"
         >See all products</a></li>
     </ul>
-    <h3 slot="links">Tools</h3>
+    <h3 slot="links" data-analytics-text="Tools">Tools</h3>
     <ul slot="links">
       <li><a href="https://sso.redhat.com/"
         data-analytics-category="Footer|Tools"
@@ -117,7 +132,7 @@
         data-analytics-text="Resource library"
         >Resource library</a></li>
     </ul>
-    <h3 slot="links">Try, buy, sell</h3>
+    <h3 slot="links" data-analytics-text="Try buy sell">Try, buy, sell</h3>
     <ul slot="links">
       <li><a href="https://www.redhat.com/en/products/trials"
         data-analytics-category="Footer|Try buy sell"
@@ -152,7 +167,7 @@
         data-analytics-text="Contact consulting"
         >Contact consulting</a></li>
     </ul>
-    <h3 id="communicate" slot="links">Communicate</h3>
+    <h3 id="communicate" slot="links" data-analytics-text="Communicate">Communicate</h3>
     <ul slot="links">
       <li><a href="https://www.redhat.com/en/contact"
         data-analytics-category="Footer|Communicate"
@@ -172,18 +187,18 @@
         >Red Hat newsletter</a></li>
     </ul>
     <rh-footer-block slot="main-secondary">
-      <h3 slot="header">About Red Hat</h3>
+      <h3 slot="header" data-analytics-text="About Red Hat">About Red Hat</h3>
       <p>We’re the world’s leading provider of enterprise open source solutions, using a community-powered approach to deliver high-performing Linux, cloud, container, and Kubernetes technologies. We help you standardize across environments, develop cloud-native applications, and integrate, automate, secure, and manage complex environments with award-winning support, training, and consulting services.</p>
     </rh-footer-block>
     <rh-footer-block slot="main-secondary">
-      <h3 slot="header">Subscribe to our free newsletter, Red Hat Shares</h3>
+      <h3 slot="header" data-analytics-text="Subscribe to our free newsletter">Subscribe to our free newsletter, Red Hat Shares</h3>
       <pfe-cta><a href="#blocks"
                 data-analytics-category="Footer|About Red Hat"
                 data-analytics-text="Sign up now"
                 >Sign up now</a></pfe-cta>
     </rh-footer-block>
     <!-- <section data-analytics-region="page-footer-bottom"> -->
-    <h3 slot="footer-links-primary" hidden>Red Hat legal and privacy links</h3>
+    <h3 slot="footer-links-primary" hidden data-analytics-text="Red Hat legal and privacy links">Red Hat legal and privacy links</h3>
     <ul slot="footer-links-primary">
       <li><a href="https://www.redhat.com/en/about/company"
         data-analytics-category="Footer|Corporate"
@@ -215,22 +230,22 @@
         >Diversity, equity, and inclusion</a></li>
     </ul>
     <rh-footer-copyright slot="footer-links-secondary"></rh-footer-copyright>
-    <h3 slot="footer-links-secondary" hidden>Red Hat legal and privacy links</h3>
+    <h3 slot="footer-links-secondary" hidden data-analytics-text="Red Hat legal and privacy links">Red Hat legal and privacy links</h3>
     <ul slot="footer-links-secondary">
       <li><a href="https://www.redhat.com/en/about/privacy-policy"
-        data-analytics-category="Footer|Legal"
+        data-analytics-category="Footer|Red Hat legal and privacy links"
         data-analytics-text="Privacy statement"
         >Privacy statement</a></li>
       <li><a href="https://www.redhat.com/en/about/terms-use"
-        data-analytics-category="Footer|Legal"
+        data-analytics-category="Footer|Red Hat legal and privacy links"
         data-analytics-text="Terms of use"
         >Terms of use</a></li>
       <li><a href="https://www.redhat.com/en/about/all-policies-guidelines"
-        data-analytics-category="Footer|Legal"
+        data-analytics-category="Footer|Red Hat legal and privacy links"
         data-analytics-text="All policies and guidelines"
         >All policies and guidelines</a></li>
       <li><a href="https://www.redhat.com/en/about/digital-accessibility"
-        data-analytics-category="Footer|Legal"
+        data-analytics-category="Footer|Red Hat legal and privacy links"
         data-analytics-text="Digital accessibility"
         >Digital accessibility</a></li>
       <li><a href="#">Cookie preferences</a></li>
