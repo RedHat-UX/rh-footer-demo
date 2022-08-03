@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "@patternfly/pfe-cta": "next",
-    "@rhds/elements": "1.0.0-beta.12",
-    "tslib": "^2.4.0"
+    "@rhds/elements": "^1.0.0-beta.13"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",
