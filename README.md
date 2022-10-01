@@ -1,3 +1,5 @@
+Please see the Red Hat Design System repository for official documentation: https://github.com/RedHat-UX/red-hat-design-system/tree/main/elements/rh-footer
+
 ## rh-footer Demo
 
 This app is an example of how to import and use the `<rh-footer>` via npm.
